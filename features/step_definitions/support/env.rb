@@ -1,0 +1,6 @@
+require 'rest-client'
+require 'rubygems'
+require 'watir'
+require 'rspec/expectations'
+require 'mysql2'
+require 'net/ssh/gateway'
