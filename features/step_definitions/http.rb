@@ -1,5 +1,5 @@
 When(/^making GET request$/) do
-  @last_response = RestClient.get 'https://sigapp.signicat.net:4443'
+  @last_response = RestClient.get 'URL:4443'
 end
 
 Then(/^the response should be:$/) do |resp|
